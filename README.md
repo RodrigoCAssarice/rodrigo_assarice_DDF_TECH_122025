@@ -345,7 +345,7 @@ Média de Tamanho de Avaliação (Gráfico de barras com linha).
 Comparação de Qualidade do Produto e Tamanho da Avaliação.
 Análise de Avaliações por Produto (Gráfico de barras).
 
-![Dash Meta](item7.jpg)
+![Dash Meta](Item7.jpg)
 A imagem faz referencia a visualização de dados geradas no meta.
 
 ### 8. Pipeline de Processamento de Dados (PySpark para Neon PostgreSQL)
@@ -411,5 +411,6 @@ DDF_TECH_122025/
 - ✔ Item 6 — Modelagem de Dados
 - ✔ Item 7 — Análise de Dados: Dashboard e Consultas no Metabase
 - ✔ Item 9 — Sobre Data Apps
+
 
 
