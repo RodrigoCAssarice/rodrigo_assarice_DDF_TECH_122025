@@ -57,7 +57,7 @@ st.header("2. Análise Exploratória de Dados (EDA) sem GPT limite de tokens exc
 #openai.proxy = None
 
 # Substitua a chave pela sua chave real aqui
-#openai.api_key = "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"
+#openai.api_key = "OPENAI_API_KEY"
 
 #def get_gpt_eda_analysis(text):
     # Prompt para enviar ao GPT
