@@ -1,0 +1,6 @@
+check,status,details
+No null values in dataset,PASS,Total nulls: 0
+overall between 1 and 5,PASS,
+month between 1 and 12,PASS,
+year between 1990 and 2030,PASS,
+helpful_up <= helpful_total,PASS,Violations: 0

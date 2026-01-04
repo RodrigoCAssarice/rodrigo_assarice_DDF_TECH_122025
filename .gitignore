@@ -1,0 +1,19 @@
+# Ambientes virtuais
+venv/
+
+# Dados
+Data/
+
+# imagens e arquivos pesados
+Images_and_files/
+
+# Temporários do Python
+__pycache__/
+*.py[cod]
+
+# Configurações sensíveis 
+.env
+
+docs/
+
+scripts/
