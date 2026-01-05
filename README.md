@@ -442,9 +442,13 @@ Pré-requisitos:
 - Ambiente virtual (opcional)
 
 Passos:
+
 pip install -r requirements.txt
+
 streamlit run data_apps/app.py
+
 Observação:
+
 O app utiliza dados previamente processados e tem caráter demonstrativo para o case técnico.
 
 
@@ -490,6 +494,7 @@ DDF_TECH_122025/
 - ✔ Item 6 — Modelagem de Dados
 - ✔ Item 7 — Análise de Dados: Dashboard e Consultas no Metabase
 - ✔ Item 9 — Sobre Data Apps
+
 
 
 
