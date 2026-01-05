@@ -53,7 +53,7 @@ A escolha deste dataset permitiu explorar, de forma mais aprofundada, capacidade
 
 *Legenda: 🟦 Período de execução | ✅ Concluído | 🕒 Em Progresso | 📅 Agendado*
 
-## 📅 Item 0: Planejamento (6 Dias)
+## 📅 Item 0: Planejamento (Horas)
 
 ### Cronograma de Execução
 
@@ -368,7 +368,7 @@ Análise Temporal: Visualizando a evolução das avaliações ao longo do tempo,
 Tamanho das Avaliações: Analisando a média e a mediana do tamanho das avaliações de acordo com o tempo e a qualidade do produto.
 Mediana do review agrupando por ano.
 
-O foco principal era agregar mais valor com o LLMS porem com algumas dificuldades não consegui desenvolver uma solução viavel para aplicar essas metricas a todo o data set.
+Nesta entrega, a etapa de enriquecimento via LLM foi demonstrada por amostragem (25 reviews) para validar o desenho da solução e o schema de features, considerando restrições de custo/tempo. Em cenário produtivo, a estratégia seria escalonar via batch assíncrono e/ou processamento incremental com controle de custos e monitoramento.
 
 Gráficos e Resultados:
 No Metabase, criei gráficos de:
@@ -382,7 +382,7 @@ Análise de Avaliações por Produto (Gráfico de barras).
 A imagem faz referencia a visualização de dados geradas no meta.
 
 #Consultas SQL
-
+```sql
 - SELECT  date_trunc('month', date_id) AS mes,
         COUNT(*) AS total_reviews,
         AVG(overall) AS media_rating
@@ -416,10 +416,13 @@ ORDER BY mes;
        overall
 FROM dw.fato_reviews_enriquecida
 WHERE reviewtext_len IS NOT NULL AND overall IS NOT NULL;
+```
 
-### 8. Pipeline de Processamento de Dados (PySpark para Neon PostgreSQL)
+### 8. Processamento de Dados com PySpark para Neon PostgreSQL (escopo demonstrativo)
 
 No Item 8 do case, o objetivo era criar um pipeline de dados para processar as avaliações de produtos da Amazon e integrá-las com o Neon PostgreSQL. Implementar o PySpark para realizar o processamento dos dados e a  pipeline de extração, transformação e carga (ETL).
+
+- `notebooks/PySpark_to_Neon_Integration.ipynb`
 
 ### Item 9 Sobre Data Apps
 Similaridade entre Produtos: Utiliza o TF-IDF e cosine similarity para identificar produtos similares com base nas descrições das avaliações.
@@ -474,6 +477,7 @@ DDF_TECH_122025/
 - ✔ Item 6 — Modelagem de Dados
 - ✔ Item 7 — Análise de Dados: Dashboard e Consultas no Metabase
 - ✔ Item 9 — Sobre Data Apps
+
 
 
 
