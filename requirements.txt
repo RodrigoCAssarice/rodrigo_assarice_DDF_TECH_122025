@@ -2,21 +2,15 @@
 pandas==2.3.3
 numpy==2.4.0
 
-# Download dos dados
-kaggle==1.8.3
-
 # Utilitários e Requisições
 requests==2.32.5
 python-dateutil==2.9.0.post0
 tqdm==4.67.1
 
-streamlit
 plotly
-openai
 python-dotenv
+
 streamlit
-pandas
-numpy
 matplotlib
 scikit-learn
 sqlalchemy
@@ -24,3 +18,4 @@ openai
 scipy
 seaborn
 psycopg2-binary
+
