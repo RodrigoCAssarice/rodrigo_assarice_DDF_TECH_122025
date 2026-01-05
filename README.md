@@ -2,7 +2,40 @@
 **Cargo:** Engenheiro de Dados (Candidato)
 
 ## 📌 Visão Geral do Projeto
-Este repositório contém a resolução do Case Técnico da Dadosfera, simulando uma operação completa de dados para um ecossistema de E-commerce. O objetivo é demonstrar proficiência em ingestão, catalogação, qualidade, modelagem dimensional, IA Generativa e visualização.
+Este repositório contém a resolução do Case Técnico da Dadosfera, simulando uma operação completa de dados ponta a ponta para um ecossistema de e-commerce. O objetivo é demonstrar proficiência em ingestão, catalogação, qualidade, modelagem dimensional, IA Generativa e visualização.
+
+---
+
+## 🔗 Links rápidos – Ativos do projeto
+
+### Pipelines
+- **Amazon Reviews_DDF_TECH_122025_v2**  
+  https://app.dadosfera.ai/pt-BR/collect/pipelines/ee124bd6-b4f2-47db-8a19-00739509e01e
+
+### Dados Curados / DW
+- **PUBLIC.DW__FATO_REVIEWS_ENRIQUECIDA**  
+  https://app.dadosfera.ai/pt-BR/catalog/data-assets/f6033cf6-b16c-4df1-9f67-3872af98892a
+
+### Catálogo de Dados
+- **PUBLIC.PUBLIC__ELECTRONICS_REVIEWS**  
+  *(TB__BYTSNO__PUBLIC__ELECTRONICS_REVIEWS)*  
+  https://app.dadosfera.ai/pt-BR/catalog/data-assets/b6409229-a9e6-45ea-878c-911811e1e65c
+
+### Visualizações / BI
+- **Amazon Reviews (Dadosfera)**  
+  https://app.dadosfera.ai/pt-BR/catalog/data-assets/aa7be233-88a9-4f5d-ad3b-9fba4dad77df
+- **Amazon Reviews (Metabase)**  
+  https://metabase-treinamentos.dadosfera.ai/dashboard/236-amazon-reviews
+  
+---
+
+## 📝 Nota sobre a escolha do dataset
+
+Para este case, foi utilizado o dataset de reviews da Amazon (Electronics) com o objetivo de demonstrar o uso de IA generativa e técnicas de enriquecimento semântico aplicadas a dados textuais não estruturados.
+
+Em um cenário real de e-commerce, é comum que análises estratégicas envolvam também dados transacionais (pedidos, clientes, logística). No entanto, o pipeline, a modelagem e as análises desenvolvidas neste projeto são diretamente aplicáveis a bases transacionais, mantendo a mesma lógica arquitetural e analítica.
+
+A escolha deste dataset permitiu explorar, de forma mais aprofundada, capacidades técnicas relacionadas a processamento de linguagem natural, geração de features e integração de IA generativa, atendendo aos objetivos propostos no case.
 
 ---
 
@@ -441,6 +474,7 @@ DDF_TECH_122025/
 - ✔ Item 6 — Modelagem de Dados
 - ✔ Item 7 — Análise de Dados: Dashboard e Consultas no Metabase
 - ✔ Item 9 — Sobre Data Apps
+
 
 
 
