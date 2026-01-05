@@ -352,12 +352,6 @@ A imagem faz referencia a visualização de dados geradas no meta.
 
 No Item 8 do case, o objetivo era criar um pipeline de dados para processar as avaliações de produtos da Amazon e integrá-las com o Neon PostgreSQL. Implementar o PySpark para realizar o processamento dos dados e a  pipeline de extração, transformação e carga (ETL).
 
-Arquitetura do Pipeline:
-O pipeline foi desenvolvido utilizando o PySpark no Google Colab, e o código foi salvo em um notebook. O pipeline foi estruturado da seguinte forma:
-Leitura de dados: Usamos o JDBC para ler dados do PostgreSQL (Neon).
-Transformação de dados: Aplicamos filtros, agregações e outras transformações necessárias.
-Gravação no PostgreSQL: Os dados foram carregados de volta na tabela de destino no Neon, pronta para ser usada em futuras análises.
-
 ### Item 9 Sobre Data Apps
 Similaridade entre Produtos: Utiliza o TF-IDF e cosine similarity para identificar produtos similares com base nas descrições das avaliações.
 Análise Exploratória de Dados (EDA): Realiza uma análise descritiva dos dados, incluindo gráficos de distribuição de avaliações, comprimento das avaliações e matriz de correlação.
@@ -411,6 +405,7 @@ DDF_TECH_122025/
 - ✔ Item 6 — Modelagem de Dados
 - ✔ Item 7 — Análise de Dados: Dashboard e Consultas no Metabase
 - ✔ Item 9 — Sobre Data Apps
+
 
 
 
