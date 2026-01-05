@@ -381,23 +381,23 @@ Análise de Avaliações por Produto (Gráfico de barras).
 ![Dash Meta](Item7.jpg)
 A imagem faz referencia a visualização de dados geradas no meta.
 
-#Consultas SQL
+### Consultas SQL (exemplos)
 ```sql
-- SELECT  date_trunc('month', date_id) AS mes,
+SELECT  date_trunc('month', date_id) AS mes,
         COUNT(*) AS total_reviews,
         AVG(overall) AS media_rating
 FROM dw.fato_reviews_enriquecida
 GROUP BY 1
 ORDER BY 1;
 
-- SELECT sentiment,
+SELECT sentiment,
        COUNT(*) AS qtd
 FROM dw.fato_reviews_enriquecida
 WHERE sentiment IS NOT NULL
 GROUP BY sentiment
 ORDER BY qtd DESC;
 
-- SELECT product_id,
+SELECT product_id,
        COUNT(*) AS qtd_reviews,
        AVG(overall) AS avg_rating
 FROM dw.fato_reviews_enriquecida
@@ -406,13 +406,13 @@ ORDER BY qtd_reviews DESC
 LIMIT 10;
 
 
-- SELECT date_trunc('month', date_id) AS mes,
+SELECT date_trunc('month', date_id) AS mes,
        AVG(overall) AS media_rating
 FROM dw.fato_reviews_enriquecida
 GROUP BY mes
 ORDER BY mes;
 
-- SELECT reviewtext_len,
+SELECT reviewtext_len,
        overall
 FROM dw.fato_reviews_enriquecida
 WHERE reviewtext_len IS NOT NULL AND overall IS NOT NULL;
@@ -471,12 +471,13 @@ DDF_TECH_122025/
 
 - ✔ Item 1 — Base de Dados  
 - ✔ Item 2 — Integração (Collect)  
-- ✔ Item 3 — Item 3 — Sobre a Dadosfera: Explorar e Catalogar
+- ✔ Item 3 — Sobre a Dadosfera: Explorar e Catalogar
 - ✔ Item 4 — Qualidade dos Dados
 - ✔ Item 5 — Uso de LLMs e Explicação do Prompt (Limitado pelo uso de tokens)
 - ✔ Item 6 — Modelagem de Dados
 - ✔ Item 7 — Análise de Dados: Dashboard e Consultas no Metabase
 - ✔ Item 9 — Sobre Data Apps
+
 
 
 
