@@ -435,6 +435,19 @@ pandas: Manipulação de dados tabulares.
 sklearn: Cálculo de similaridade entre produtos.
 Seaborn e Matplotlib: Criação de gráficos e visualizações.
 
+## ▶️ Como executar o Data App (Streamlit)
+
+Pré-requisitos:
+- Python 3.9+
+- Ambiente virtual (opcional)
+
+Passos:
+pip install -r requirements.txt
+streamlit run data_apps/app.py
+Observação:
+O app utiliza dados previamente processados e tem caráter demonstrativo para o case técnico.
+
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -477,6 +490,7 @@ DDF_TECH_122025/
 - ✔ Item 6 — Modelagem de Dados
 - ✔ Item 7 — Análise de Dados: Dashboard e Consultas no Metabase
 - ✔ Item 9 — Sobre Data Apps
+
 
 
 
