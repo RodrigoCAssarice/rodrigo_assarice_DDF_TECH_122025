@@ -11,7 +11,7 @@ import os
 import seaborn as sns
 
 # Conectar ao banco de dados PostgreSQL (Neon) usando SQLAlchemy
-DB_URL = os.getenv("DB_URL")
+DB_URL = os.getenv("NEON_DB_URL")
 
 # Criar a conexão usando SQLAlchemy
 engine = create_engine(DB_URL)
