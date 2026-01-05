@@ -14,7 +14,7 @@ Este repositório contém a resolução do Case Técnico da Dadosfera, simulando
 | **2.1 e 3: Ingestão e Catalogação** | | 🟦 | | | | | ✅ |
 | **4 e 5: Qualidade e GenAI** | | | 🟦 | | | | ✅ |
 | **6 e 7: Modelagem e Pipelines** | | | | 🟦 | | | ✅ |
-| **8: Modelagem e Pipelines** | | | | 🟦 | | | 📅 |
+| **8: Pipelines com spark** | | | | 🟦 | | | 📅 |
 | **7 e 9: BI e Data App (Streamlit)** | | | | | 🟦 | | ✅ |
 | **10: Entrega e Vídeo** | | | | | | 🟦 | 📅 |
 
@@ -405,6 +405,7 @@ DDF_TECH_122025/
 - ✔ Item 6 — Modelagem de Dados
 - ✔ Item 7 — Análise de Dados: Dashboard e Consultas no Metabase
 - ✔ Item 9 — Sobre Data Apps
+
 
 
 
